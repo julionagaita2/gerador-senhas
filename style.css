@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+body{
+    background-color: #010f1f;
+    color: white ;
+}
+#lock{
+    height: 0;
+}
+.top{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Pixelify Sans", sans-serif;
+    
+}
+.mid{
+    width: 1089px;
+    height: 80px;
+    background-color: #001630;
+    border-bottom: 5px solid #0075FF;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    margin-top: 57px;
+}
+label{
+    padding: 0 20px 0 20px;
+    font-size: 20px;
+    font-weight: 100;
+}
+#campo-senha{
+background-color: transparent;
+border: none;
+color: white;
+font-family: "Pixelify Sans", sans-serif;
+font-size: 30px;
+
+width: 900px;
+
+}
+#campo-senha:focus{
+    border: 0 none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    color: white;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 30px;
+}
+.container{
+    width: 1089px;
+    height: 382px;
+    background-color: #001630;
+    margin-top: 32px;
+}
+#tituloContainer{
+    font-size: 28px;
+    text-align: start;
+    padding-left: 20px;
+}
+.parametrosContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#nCaracteres{
+    width: 197px;
+    height: 197px;
+    background-color: white;
+}
+#caracteristicasSenha{
+    width: 197px;
+    height: 197px;
+    background-color: blue;
+}
+#forcaSenha{
+    width: 197px;
+    height: 197px;
+    background-color: orange;
+}
