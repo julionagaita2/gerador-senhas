@@ -65,12 +65,12 @@ width: 900px;
 .parametrosContainer{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 #nCaracteres{
     width: 197px;
     height: 197px;
-    background-color: white;
+    flex-direction: column;
 }
 #caracteristicasSenha{
     width: 197px;
@@ -81,4 +81,15 @@ width: 900px;
     width: 197px;
     height: 197px;
     background-color: orange;
+}
+#aumentarChar, #diminuirChar{
+background-color: transparent;
+border: solid 2px;
+border-color: #0075FF;
+color: white;
+width: 53px;
+height: 55px;
+}
+#aumentarChar, #diminuirChar:hover{
+    cursor: pointer;
 }
