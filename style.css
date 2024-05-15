@@ -20,6 +20,7 @@ body{
 }
 .mid{
     width: 1089px;
+    padding: 0 20px 0 2 0px;
     height: 80px;
     background-color: #001630;
     border-bottom: 5px solid #0075FF;
@@ -27,6 +28,7 @@ body{
     display: flex;
     align-items: center;
     margin-top: 57px;
+    
 }
 label{
     padding: 0 20px 0 20px;
@@ -56,6 +58,7 @@ width: 900px;
     height: 382px;
     background-color: #001630;
     margin-top: 32px;
+    padding: 0 20px 0 20px;
 }
 #tituloContainer{
     font-size: 28px;
@@ -68,7 +71,7 @@ width: 900px;
     justify-content: space-around;
 }
 #nCaracteres{
-    width: 197px;
+    width: 307px;
     height: 197px;
     flex-direction: column;
 }
@@ -96,6 +99,9 @@ height: 55px;
 .boxbotoes{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
 }
 .conteudo{
     max-width: 1200px;
@@ -121,8 +127,8 @@ height: 55px;
     justify-content: center;
     }
     .parametro-senha{
-    width: 50%;
-    margin: 0 auto;
+    width: 350px;
+    
     }
     .parametro-senha-botoes{
         display: flex;
@@ -181,3 +187,15 @@ height: 55px;
                 flex-direction: row;
             }
         }
+        .pForca{
+            font-size: 24px;
+        }
+        .parametro-senha-checkbox{
+            text-align: start;
+        }
+.checkbox:checked{
+    background: #00FF85;
+}
+.checkbox{
+    background-color:#E71832;
+}
